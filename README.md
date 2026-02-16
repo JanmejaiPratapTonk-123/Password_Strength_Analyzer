@@ -14,7 +14,6 @@ FEATURES
   - Minimum length requirement
 
 - Strength classification:
-  - Very Weak
   - Weak
   - Medium
   - Strong
@@ -105,10 +104,11 @@ EXAMPLE OUTPUT
 Enter password: Abc@1234
 
 Password Strength: Medium
+
 Strength: [######----] 60%
 
 Suggestions:
-Add more special characters
+Add special character
 
 Entropy: 45.82 bits
 Estimated Crack Time: 2.31 years
@@ -122,7 +122,6 @@ FUTURE IMPROVEMENTS
 - Dictionary attack simulation
 - Save results to file
 - Real-time typing analysis
-- Dark mode interface
 
 --------------------------------------------------
 
