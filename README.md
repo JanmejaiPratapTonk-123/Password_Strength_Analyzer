@@ -42,6 +42,7 @@ CONCEPTS USED
 TECH STACK
 
 Language: C++
+
 Compiler: g++ / MinGW
 
 Libraries Used:
@@ -58,9 +59,13 @@ STRENGTH CALCULATION LOGIC
 Score is based on 5 criteria:
 
 Length >= 8        +1
+
 Uppercase letter   +1
+
 Lowercase letter   +1
+
 Digit              +1
+
 Symbol             +1
 
 Total score determines strength level.
