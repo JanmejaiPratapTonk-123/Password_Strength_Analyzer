@@ -111,6 +111,7 @@ Suggestions:
 Add special character
 
 Entropy: 45.82 bits
+
 Estimated Crack Time: 2.31 years
 
 --------------------------------------------------
