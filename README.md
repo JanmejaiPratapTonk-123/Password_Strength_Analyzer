@@ -7,17 +7,17 @@ A smart password analysis tool built in C++ that evaluates password strength usi
 FEATURES
 
 - Detects:
-  • Uppercase letters
-  • Lowercase letters
-  • Digits
-  • Special characters
-  • Minimum length requirement
+  - Uppercase letters
+  - Lowercase letters
+  - Digits
+  - Special characters
+  - Minimum length requirement
 
 - Strength classification:
-  • Very Weak
-  • Weak
-  • Medium
-  • Strong
+  - Very Weak
+  - Weak
+  - Medium
+  - Strong
 
 - Visual strength bar indicator
 - Security suggestions for improvement
@@ -53,7 +53,7 @@ Libraries Used:
 
 --------------------------------------------------
 
-HOW STRENGTH IS CALCULATED
+STRENGTH CALCULATION LOGIC
 
 Score is based on 5 criteria:
 
@@ -63,7 +63,7 @@ Lowercase letter   +1
 Digit              +1
 Symbol             +1
 
-Total Score determines strength level.
+Total score determines strength level.
 
 --------------------------------------------------
 
@@ -77,9 +77,9 @@ Higher entropy means stronger password.
 
 CRACK TIME ESTIMATION
 
-Time = combinations / guesses_per_second
+time = combinations / guesses_per_second
 
-To avoid overflow for large passwords, logarithmic math is used:
+To prevent overflow:
 
 log(seconds) = log(combinations) − log(guesses_per_second)
 
