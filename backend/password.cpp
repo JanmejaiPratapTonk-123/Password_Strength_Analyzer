@@ -17,11 +17,9 @@ void strengthCheck(string& strength, int percentage)
     }
 }
 
-int main()
+int main(int argc, char* argv[])
 {
-    string pass;
-    cout << "Enter password: ";
-    getline(cin, pass);
+    string pass = argv[1];
     
     if(pass.empty())
     {
