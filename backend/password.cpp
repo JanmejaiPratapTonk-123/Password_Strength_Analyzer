@@ -19,6 +19,18 @@ void strengthCheck(string& strength, int percentage)
 
 int main(int argc, char* argv[])
 {
+    // argc = Argument Count
+    // How many words were passed when running program.
+
+    // argv = Argument Vector
+    // Array of text arguments
+    
+    if(argc < 2)
+    {
+        cout << "No password provided";
+        return 0;
+    }
+
     string pass = argv[1]; // for command-line input
     
     if(pass.empty())
