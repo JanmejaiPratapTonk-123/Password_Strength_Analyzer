@@ -19,7 +19,7 @@ void strengthCheck(string& strength, int percentage)
 
 int main(int argc, char* argv[])
 {
-    string pass = argv[1];
+    string pass = argv[1]; // for command-line input
     
     if(pass.empty())
     {
