@@ -1,8 +1,15 @@
-import Navbar from '../components/Navbar';
+import Hero from "../components/Hero";
+import Input from "../components/Input";
 
 function Home() {
     return (
-            <Navbar />
+        <div>
+            <Hero />
+
+            <div className="text-center pt-4">
+                <Input />
+            </div>
+        </div>
     );
 }
 
